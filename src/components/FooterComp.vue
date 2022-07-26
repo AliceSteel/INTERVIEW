@@ -79,4 +79,9 @@ export default {
 	background-color:#fff;
 }
 }
+@media screen and (max-width: 640px) {
+    .footer_wrap {
+        justify-content: space-evenly;
+    }
+}
 </style>
