@@ -1,0 +1,51 @@
+[
+    {
+        "company": "Ordinary 2.0",
+        "id": "01",
+        "title": "Challenging Ordinary",
+        "descr": "Oridnary is a Gothenburg-based creative development studio. Through technology and design they differentiate artists, creatives and brands to help them break through the noise. Oridnary likes to challenge the ordinary.",
+        "pic1": "girl_p3@828.jpg",
+        "pic2": "orange_lips@1440.jpg",
+        "pic3": "red_dots@720.jpg",
+        "pic4": "girl_sitting@713.jpg",
+        "pic5": "orange_fur@1440.jpg",
+        "video": "abstract_lights"
+    },
+    {
+        "company": "Reebok",
+        "id": "02",
+        "title": "Dream Bigger",
+        "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "pic1": "project_reebok@1440.jpg",
+        "pic2": "palm@1920.jpg",
+        "pic3": "sea@1920.jpg",
+        "pic4": "leaf@1920.jpg",
+        "pic5": "flickers@1920.jpg",
+        "video": "girl_rolling"
+    },
+    {
+        "company": "Les Miles",
+        "id": "03",
+        "title": "Express Yourself",
+        "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "pic1": "veil@828.jpg",
+        "pic2": "girl_p4@1440.jpg",
+        "pic3": "project_lesMiles@1440.jpg",
+        "pic4": "girl_sitting@713.jpg",
+        "pic5": "girl_p3@828.jpg",
+        "video": "woman_dancing"
+    },
+    {
+        "company": "Re-View",
+        "id": "04",
+        "title": "Roots",
+        "descr": "Re-View is NYC-based creative development studio. Through technology and design they differentiate artists, creatives and brands to help them break through the noise.",
+        "pic1": "b&w_subway@1440.jpg",
+        "pic2": "b&w_girl_blonde@1920.jpg",
+        "pic3": "sea_b&w@686.jpg",
+        "pic4": "b&w_girl_freckelz@686.jpg",
+        "pic5": "b&w_subway@686.jpg",
+        "video": "N/A"
+    }
+    
+]
