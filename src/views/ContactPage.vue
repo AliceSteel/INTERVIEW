@@ -7,7 +7,7 @@
 
 <script>
 import HeaderComp from '@/components/HeaderComp.vue'
-import ContactComp from '../components/ContactComp.vue';
+import ContactComp from '@/components/ContactComp.vue';
 
 
 export default {

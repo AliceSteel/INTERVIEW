@@ -50,7 +50,10 @@ const router = createRouter({
 	history: createWebHashHistory(),
 	routes ,
 	scrollBehavior() {
-		return { top: 0 }
+		return { 
+			top: 0,
+			behavior: 'smooth'
+		}
 	},
 	base:'/INTERVIEW/'
 })

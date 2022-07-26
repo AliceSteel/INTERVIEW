@@ -1,5 +1,5 @@
 <template>
-	<div v-if="aboutUsData !== null">
+	<div v-if="aboutUsData !== null && projectData !== null">
 		<header-comp logo="INTERVIEW_logo.png" :color="this.isScroll ? '#000' : '#fff'"></header-comp>
 		<section>
 			<atropos class="homepage" :rotateXMax="5" :rotateYMax="5">
@@ -13,7 +13,7 @@
 			:buttonText="this.aboutUsData[0].button" linkTo="About">
 		</about-comp>
 
-		<section id="featured_project_1" v-if="projectData !== null">
+		<section id="featured_project_1">
 			<featuredPrComp :title="this.projectData[0].title" :id="this.projectData[0].id"
 				textClass="project_text_1 text_white" :text="this.projectData[0].descr" svgClass="svg_white"
 				:pic="this.projectData[0].pic1" linkClass="text_white" underlineClass="menu_link_white">
@@ -114,12 +114,12 @@ export default {
 	
 	created() {
 		axios
-			.get('../data/aboutUs.json')
+			.get('data/aboutUs.json')
 			.then(resp => {
 				this.aboutUsData = resp.data
 			})
 		axios
-			.get('../data/projects.json')
+			.get('data/projects.json')
 			.then(resp => {
 				this.projectData = resp.data
 			})
@@ -200,6 +200,11 @@ export default {
 			max-height: 2.3rem;
 			overflow: hidden;
 		}
+	}
+}
+@media screen and (max-width: 350px){
+	.homepage h1{
+		font-size: 1.5rem;
 	}
 }
 </style>

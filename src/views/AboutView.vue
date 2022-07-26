@@ -35,8 +35,8 @@
 
 <script>
 import HeaderComp from '@/components/HeaderComp.vue';
-import AboutComp from '../components/AboutComp.vue';
-import ContactComp from '../components/ContactComp.vue'
+import AboutComp from '@/components/AboutComp.vue';
+import ContactComp from '@/components/ContactComp.vue'
 import axios from 'axios'
 
 export default {
@@ -51,12 +51,12 @@ export default {
 
 	created() {
 		axios
-			.get('../data/aboutUs.json')
+			.get('data/aboutUs.json')
 			.then(resp => {
 				this.aboutUsData = resp.data
 			})
 		axios
-			.get('../data/services.json')
+			.get('data/services.json')
 			.then(resp => {
 				this.servicesData = resp.data
 			})

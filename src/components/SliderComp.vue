@@ -1,5 +1,5 @@
 <template>
-	<carousel :settings="sliderSettings" :breakpoints="breakpoints">
+	<carousel v-if="projectPics.length > 0" :settings="sliderSettings" :breakpoints="breakpoints">
 		<slide v-for="(image, index) in projectPics" :key="index">
 			<img :src="require('@/assets/images/' + image)" alt="project_slider">
 		</slide>
@@ -52,7 +52,7 @@ export default {
 	},
 	created() {
 		axios
-			.get('../data/projects.json')
+			.get('data/projects.json')
 			.then(resp => {
 				let pics = resp.data[this.id];
 				this.projectPics.push(pics.pic3, pics.pic4, pics.pic5, pics.pic2)

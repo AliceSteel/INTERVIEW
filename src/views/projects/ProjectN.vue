@@ -131,7 +131,7 @@ export default {
 	},
 	created() {
 		axios
-			.get('../../data/projects.json')
+			.get('data/projects.json')
 			.then(resp => {
 				this.item = resp.data[this.pageId];
 				this.itemPics.push(this.item.pic2, this.item.pic3, this.item.pic4, this.item.pic5)

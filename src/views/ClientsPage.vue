@@ -42,7 +42,7 @@ export default {
 	},
 	created() {
 		axios
-			.get('../../data/clients.json')
+			.get('data/clients.json')
 			.then(resp => {
 				this.clients = resp.data
 				this.clientPic = require('@/assets/images/' + this.clients[0].pic) 
@@ -55,7 +55,6 @@ export default {
 		calcPicPosition(e) {
 			this.top = (e.target.offsetTop > 800) ? '800px' : ((e.target.offsetTop - 80) + 'px')
 			this.right = (Math.floor(Math.random() * (18 - 8 + 1)) + 8) + '%';
-			console.log(this.top)
 		}
 	}
 }

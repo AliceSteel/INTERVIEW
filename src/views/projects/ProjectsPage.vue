@@ -2,7 +2,7 @@
     <div>
         <header-comp logo="INTERVIEW_logo.png" :color="this.isScroll ? '#000' : '#fff'"></header-comp>
 
-        <main>
+        <main v-if="list !== null">
             <section v-for="project in list" :key="project.id" :class="'project_bg project_' + project.id">
                 <router-link :to="{name: 'ProjectN', params:{id: project.id}}" class="projects_wrap">
                     <div class="project_descr text_white">
@@ -46,7 +46,7 @@
         },
         data() {
             return {
-                list: []
+                list: null
             }
         },
         created() {
@@ -55,7 +55,7 @@
         methods: {
             fetchData() {
                 axios
-                    .get('../../data/projects.json')
+                    .get('data/projects.json')
                     .then(resp => {
                         this.list = resp.data
                     })
