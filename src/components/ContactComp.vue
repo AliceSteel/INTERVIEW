@@ -115,6 +115,6 @@
 </script>
 
 <style lang="scss" scoped>
-	@import '@/assets/sass/contact.scss';
+	@import '@/assets/scss/contact.scss';
 
 </style>

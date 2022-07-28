@@ -65,5 +65,5 @@
 </script>
 
 <style lang="scss" scoped>
-    @import url('@/assets/sass/projects.scss');
+    @import url('@/assets/scss/projects.scss');
 </style>
