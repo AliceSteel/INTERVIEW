@@ -58,7 +58,6 @@
 						:poster="require('@/assets/images/poster_' + item.video + '.jpg')">
 						<source :src="require('@/assets/video/' + item.video + '.mp4')" type="video/mp4" />
 						<source :src="require('@/assets/video/' + item.video + '.webm')" type="video/webm" />
-
 					</video>
 				</div>
 			</div>
