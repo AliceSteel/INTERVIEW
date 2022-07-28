@@ -7,12 +7,12 @@
 				<h1>{{ aboutUsData[0].h1 }}</h1>
 			</atropos>
 		</section>
-		
+<!-- description section--------------------------------------------------------------- -->		
 		<about-comp :picVert="this.aboutUsData[0].pic1" :picHor="this.aboutUsData[0].pic2"
 			:title="this.aboutUsData[0].title" :text1="this.aboutUsData[0].text1"
 			:buttonText="this.aboutUsData[0].button" linkTo="About">
 		</about-comp>
-
+<!-- featured section------------------------------------------------------------------ -->
 		<section id="featured_project_1">
 			<featuredPrComp :title="this.projectData[0].title" :id="this.projectData[0].id"
 				textClass="project_text_1 text_white" :text="this.projectData[0].descr" svgClass="svg_white"

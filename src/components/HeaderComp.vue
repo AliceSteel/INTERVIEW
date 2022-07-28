@@ -61,7 +61,10 @@ export default {
     },
     methods: {
         toggleFixedHeader(){
-            this.isScroll = window.scrollY > document.querySelector('section').offsetHeight;
+            if(document.querySelector('section').offsetHeight !== null){
+                this.isScroll = window.scrollY > document.querySelector('section').offsetHeight
+            }
+            
         },
         toggleMenu(){
              document.querySelector('.hamburger').classList.toggle('is-active');
