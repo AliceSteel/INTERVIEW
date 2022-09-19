@@ -5,9 +5,7 @@
 		<main v-if="list !== null">
 			<section v-for="project in list" :key="project.id" :class="'project_bg project_' + project.id">
 				<div class="projects_wrap">
-					<router-link :to="{name: 'ProjectN', params:{id: project.id}}" class="link"></router-link>
 					<div class="project_descr text_white">
-						
 						<div class="project_title">
 							<h2>{{ project.title }}</h2>
 						</div>
@@ -20,8 +18,9 @@
 						</div>
 					</div>
 
-					<div class="arrow_wrap">
-						<div class="arrow text_white"><span class="menu_link_white">View Project</span>
+					
+					<router-link :to="{name: 'ProjectN', params:{id: project.id}}" class="arrow text_white arrow_wrap">
+							<span class="menu_link_white">View Project</span>
 							<span>
 								<svg width="30" height="10" viewBox="0 0 30 10" fill="none"
 									xmlns="http://www.w3.org/2000/svg">
@@ -30,9 +29,11 @@
 										fill="white" />
 								</svg>
 							</span>
-						</div>
-					</div>
+					</router-link>
+					
+					
 				</div>
+				
 			</section>
 		</main>
 	</div>

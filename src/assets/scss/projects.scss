@@ -1,5 +1,6 @@
 .project_bg {
     width: 100%;
+    height: 100%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;   
@@ -33,19 +34,9 @@ h2 {
     flex-flow: row wrap;
     justify-content: space-between;
     padding: 668px 0 81px;
-    position: relative;
-    &:hover {
-      cursor: pointer
-    }
+    position: relative; 
 }
-.link {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
+
 .project_descr {
     width: 62%;
     display: flex;
@@ -71,7 +62,7 @@ h2 {
   width: 37%;
   min-width: 140px;
   display:flex;
-  justify-content: center;
+  justify-content:flex-end;
   align-items: flex-end;
   padding-top: 2rem;
 }

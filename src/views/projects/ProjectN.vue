@@ -2,7 +2,7 @@
 	<div v-if="item !== null">
 		<header-comp logo="INTERVIEW_logo.png" :color="this.isScroll ? '#000' : '#fff'"></header-comp>
 
-		<section id="homepage">
+		<section class="homepage">
 			<img :src="require('@/assets/images/' + item.pic2)" :alt="item.title" />
 		</section>
 		<section class="container">

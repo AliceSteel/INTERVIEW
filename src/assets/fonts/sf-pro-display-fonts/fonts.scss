@@ -4,6 +4,7 @@
         url('@/assets/fonts/sf-pro-display-fonts/SFProDisplay-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -12,6 +13,7 @@
         url('@/assets/fonts/sf-pro-display-fonts/SFProDisplay-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -20,4 +22,5 @@
         url('@/assets/fonts/sf-pro-display-fonts/SFProDisplay-SemiBold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
 }
