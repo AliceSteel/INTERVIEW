@@ -6,8 +6,7 @@
 			$route.name === 'ProjectN' ? 'dark' :
 			'footer'
 			)">
-		</footer-comp>
-				
+		</footer-comp>			
 	</nav>
 </template>
 
